@@ -1,2 +1,2 @@
 # ESP32_OTA_UPDATE
-OTA updates
+OTA updates with timer
