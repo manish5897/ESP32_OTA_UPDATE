@@ -1,0 +1,102 @@
+In archive /home/manish/github_repo/ESP32_OTA_UPDATE/build/main/libmain.a:
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.read_past_http_header 00000038  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.connect_to_http_server 0000005c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.task_fatal_error 0000001c  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ota_task 000001d8  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.timerCallBack 00000024  00000000  00000000  000002bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.initialise_wifi 00000098  00000000  00000000  000002e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.event_handler 00000014  00000000  00000000  00000378  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.ota_timer_start 0000002c  00000000  00000000  0000038c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.app_main 00000040  00000000  00000000  000003b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  000003f8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  000003f8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  000003f8  2**0
+                  ALLOC
+ 12 .text.read_until 00000019  00000000  00000000  000003f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .rodata.str1.4 00000949  00000000  00000000  00000414  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .text.read_past_http_header 000000b6  00000000  00000000  00000d60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.connect_to_http_server 000000e4  00000000  00000000  00000e18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.task_fatal_error 00000033  00000000  00000000  00000efc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.ota_task 00000446  00000000  00000000  00000f30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.timerCallBack 00000038  00000000  00000000  00001378  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .rodata       00000060  00000000  00000000  000013b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .text.initialise_wifi 00000183  00000000  00000000  00001410  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.event_handler 00000040  00000000  00000000  00001594  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.ota_timer_start 0000005a  00000000  00000000  000015d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.app_main 0000006c  00000000  00000000  00001630  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .rodata.__func__$8420 00000010  00000000  00000000  0000169c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .rodata.__func__$8485 00000009  00000000  00000000  000016ac  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__func__$8468 00000009  00000000  00000000  000016b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.CONNECTED_BIT 00000004  00000000  00000000  000016c4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .bss.wifi_event_group 00000004  00000000  00000000  000016c8  2**2
+                  ALLOC
+ 29 .data.socket_id 00000004  00000000  00000000  000016c8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 30 .bss.binary_file_length 00000004  00000000  00000000  000016cc  2**2
+                  ALLOC
+ 31 .bss.text     00000401  00000000  00000000  000016cc  2**2
+                  ALLOC
+ 32 .bss.ota_write_data 00000401  00000000  00000000  000016cc  2**2
+                  ALLOC
+ 33 .data.interval 00000004  00000000  00000000  000016cc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 34 .data.id      00000004  00000000  00000000  000016d0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 35 .bss.tmr      00000004  00000000  00000000  000016d4  2**2
+                  ALLOC
+ 36 .debug_frame  00000100  00000000  00000000  000016d4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_info   00003123  00000000  00000000  000017d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_abbrev 000003f6  00000000  00000000  000048f7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 39 .debug_loc    00000535  00000000  00000000  00004ced  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_aranges 00000068  00000000  00000000  00005222  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_ranges 00000058  00000000  00000000  0000528a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_line   00000a95  00000000  00000000  000052e2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_str    00001fc7  00000000  00000000  00005d77  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 44 .comment      0000003b  00000000  00000000  00007d3e  2**0
+                  CONTENTS, READONLY
+ 45 .xtensa.info  00000038  00000000  00000000  00007d79  2**0
+                  CONTENTS, READONLY
+ 46 .xt.lit       00000048  00000000  00000000  00007db1  2**0
+                  CONTENTS, RELOC, READONLY
+ 47 .xt.prop      0000045c  00000000  00000000  00007df9  2**0
+                  CONTENTS, RELOC, READONLY
